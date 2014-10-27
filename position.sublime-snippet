@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@include pos(0 0 0 0);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pos</tabTrigger>
+	<description>Use the position mixin</description>
+</snippet>
