@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+@include breakpoint(${2:centi}) {
+	
+}
+]]></content>
+	<tabTrigger>breakpoint</tabTrigger>
+	<description>css breakpoint</description>
+</snippet>
