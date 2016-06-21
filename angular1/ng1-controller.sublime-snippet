@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+(function() {
+  'strict';
+
+  angular.module('bolighed')
+    .controller('${2:CONTROLLERNAME}', ${2:CONTROLLERNAME});
+
+  function ${2:CONTROLLERNAME}() {
+    var CONTROLLER_AS = this;
+
+    angular.extend(CONTROLLER_AS, {
+
+    });
+  }
+})();
+
+
+]]></content>
+	<tabTrigger>controller</tabTrigger>
+	<description>Ng1 controller</description>
+</snippet>

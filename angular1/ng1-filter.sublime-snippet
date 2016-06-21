@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+(function() {
+  'use strict';
+
+  angular.module('bolighed')
+    .filter('${2:FILTERNAME}', ${2:FILTERNAME});
+
+  function ${2:FILTERNAME}() {
+    return function(input) {
+      
+    };
+  }
+})();
+
+]]></content>
+	<tabTrigger>filter</tabTrigger>
+	<description>Ng1 Filter</description>
+</snippet>

@@ -1,0 +1,42 @@
+<snippet>
+	<content><![CDATA[
+(function() {
+  'use strict';
+
+  angular.module('bolighed')
+    .service('${2:SERVICENAME}', ${2:SERVICENAME});
+
+  function ${2:SERVICENAME}(\$q, \$http) {
+    var apiBasePath = 'BASEPATH';
+
+    return {
+      get: get
+    };
+
+    function get() {
+      var apiPath = apiBasePath;
+
+      return \$q(function(resolve, reject) {
+        \$http({
+          method: 'GET',
+          url: apiPath,
+          params: params
+        }).then(function(data) {
+          resolve(data.data);
+        }, function(data, status) {
+          var errorObj = {
+            data: data,
+            status: status
+          };
+
+          reject(errorObj);
+        });
+      });
+    }
+  }
+})();
+
+]]></content>
+	<tabTrigger>service</tabTrigger>
+	<description>Ng1 Service</description>
+</snippet>
