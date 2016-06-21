@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-@include transform(translate(-50%, -50%));
-@include pos(50% 50% auto auto);
-]]></content>
-	<tabTrigger>center</tabTrigger>
-	<description>Center a element</description>
-</snippet>

@@ -1,7 +1,0 @@
-<snippet>
-	<content><![CDATA[
-@include transform(${2:translate(-50%, -50%)});
-]]></content>
-	<tabTrigger>transform</tabTrigger>
-	<description>set transform</description>
-</snippet>
