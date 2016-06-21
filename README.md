@@ -38,4 +38,7 @@ Please add if you have a windows/linux path aswell
 	* Centering method
 	* Transform
 	* Transition	 
- 
+
+### Contribution
+
+Right now no contrib guide, but if you have some cool snippets or any upgrades you wanna add, you can fork this project and make a pull request.
