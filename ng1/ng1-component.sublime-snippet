@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+(function() {
+  'use strict';
+
+  var ${2:COMPONENTNAME} = {
+    templateUrl: '/static/templates/components/${2:COMPONENTNAME}.html',
+    controller: ${2:COMPONENTNAME}Ctrl
+  };
+
+  ${2:COMPONENTNAME}Ctrl.$inject = [];
+
+  function ${2:COMPONENTNAME}Ctrl() {
+
+  }
+
+  angular.module('bolighed')
+    .component('${2:COMPONENTNAME}', ${2:COMPONENTNAME});
+})();
+]]></content>
+	<tabTrigger>component</tabTrigger>
+	<description>Ng1 Component</description>
+</snippet>
